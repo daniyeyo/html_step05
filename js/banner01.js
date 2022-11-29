@@ -8,12 +8,20 @@ $(function () {
         $('.topBanner2 .inner').slideToggle();
     })
 
+    $('.leftBanner i'), on('click', function () {
+        $('leftBanner') / toggleClass('on');
+    })
+
     $('.bottomBanner i').on('click', function () {
         $('.bottomBanner .inner').slideToggle();
     })
 
     $('.popup button').on('click', function () {
         $(this).parent().hide()
+    })
+
+    $('.rightBanner i'), on('click', function () {
+        $('.rightBanner') / toggleClass('on');
     })
 
 })

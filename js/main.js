@@ -5,6 +5,9 @@ $(function () {
     });
     $('.mainSlide').slick()
 
+    // 위에꺼 외우기
+    // 대괄호는 배열 중괄호는 객체 괄호는 함수
+
     // $('.tabMenu .tit>li').on('click', function () {
     //     var num = $(this).index();
     //     console.log(num);
@@ -17,8 +20,7 @@ $(function () {
 
 
 })
-// 위에꺼 외우기
-// 대괄호는 배열 중괄호는 객체 괄호는 함수
+
 
 
 
