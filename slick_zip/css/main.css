@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.mainSlider .itm h2 {
+    /* 변하기 전 */
+    opacity: 0;
+    transform: translate(0, 100px);
+}
+
+.mainSlider .itm.on h2 {
+    /* 변한 후 */
+    transform: translate(0, 0);
+    opacity: 1;
+    color: #f00;
+    transition: 1s;
+}
+
+.ProductSlider figure {
+    padding: 60px 15px;
+}
+
+.ProductSlider figure img {
+    border: 0 solid tomato;
+}
+
+.ProductSlider figure.on img {
+    border: 10px solid tomato;
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+.syncSlider {
+    position: relative;
+}
+
+.syncSlider .bottom {}
+
+.syncSlider .thum {
+    position: absolute;
+    top: 50%;
+    left: 150px;
+    width: 600px;
+    transform: translate(0, -50%);
+}
+
+.syncSlider .thum figure {
+    margin: 0 20px 0 0;
+    border: 3px solid tomato;
+}
+
+.syncSlider .slogan {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    color: #fff;
+    width: 600px;
+}

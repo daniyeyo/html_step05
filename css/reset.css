@@ -15,7 +15,7 @@
     font-size: inherit;
     font-weight: inherit;
     /* inherit은 잘 안쓴다. reset.css에서만 쓴다고 생각하면 됨 */
-    color: #444444;
+    color: inherit;
 }
 
 ul,
@@ -31,9 +31,16 @@ img {
     vertical-align: middle;
 }
 
+address,
+em,
+i {
+    font-style: normal;
+}
+
 body {
     font-family: 'Noto Sans KR', sans-serif;
     line-height: 1;
     letter-spacing: -0.025em;
     /* letter-spacing : 자간을 붙힐때 씀 */
+    color: #444444;
 }
